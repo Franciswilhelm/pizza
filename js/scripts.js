@@ -21,13 +21,13 @@ Pizza.prototype.price = function () {
 $(document).ready(function() {
   $("form#pizzaSelector").submit(function(event) {
     event.preventDefault();
-    var pizzaSize = $("input#size").val();
+    var pizzaSize = $("select#size").val();
     var pizzaTopping = []
     $("input:checked").each(function() {
       pizzaTopping.push($(this).val());
     });
-    var testPizza = new Pizza(pizzaSize, pizzaTopping);
-    var finalPrice = testPizza.price();
+    var customerPizza = new Pizza(pizzaSize, pizzaTopping);
+    var finalPrice = customerPizza.price();
 
     $(".display").html("$" + finalPrice + ".00");
 

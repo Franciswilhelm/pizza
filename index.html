@@ -12,24 +12,13 @@
     <div class="container">
      <h1 class="jumbotron"><em>Welcome to Prus' Pizza!</em></h1>
       <form id="pizzaSelector">
-       <h3>Choose a size</h3>
-        <div class="radio">
-          <label>
-            <input id="size" type="radio" name="size" value="small" checked>
-            Small
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="size" value="medium">
-            Medium
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="size" value="large">
-            Large
-          </label>
+       <h3>Choose a size!</h3>
+        <div class="col-md-4">
+            <select id="size" class="form-control">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">large</option>
+            </select>
         </div>
         <div class="col-md-4">
          <h3>Choose your toppings!</h3>
