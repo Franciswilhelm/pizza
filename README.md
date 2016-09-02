@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Application takes a pizza constructor object with properties toppings and size, the constructor. starts at a base price of 5, users select toppings and the price is incremented by two per topping; user selects size and the price is incremented by 5 from small to medium and incremented by two from medium to large._
 
 ## Setup/Installation Requirements
 
